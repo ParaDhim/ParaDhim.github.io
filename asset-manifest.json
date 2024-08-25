@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fce9490a.css",
-    "main.js": "/static/js/main.0a74b7cb.js",
+    "main.js": "/static/js/main.2a6d51ff.js",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.33f11e8e33e406b0dc21.svg",
     "static/media/hrishi2.png": "/static/media/hrishi2.193fd6ad75dcc76f36a9.png",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.5f2a2f236048660df440.svg",
@@ -29,6 +29,7 @@
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.4a83f63fd7dd55c4ca85.woff2",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.1c638e5f7632ea819e77.woff2",
     "static/media/intel_logo.jpg": "/static/media/intel_logo.d7577f35a3dac4e5636d.jpg",
+    "static/media/rads.png": "/static/media/rads.25569a21047b08139364.png",
     "static/media/iiitd.png": "/static/media/iiitd.7e8ee9323a048506c93d.png",
     "static/media/fa-regular-400.eot": "/static/media/fa-regular-400.86ce78132c18df414d83.eot",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.235a1aa30ba10c7d00d0.ttf",
@@ -36,7 +37,10 @@
     "static/media/100.png": "/static/media/100.528a5c8b588ab5846e72.png",
     "static/media/googleAssistant.jpg": "/static/media/googleAssistant.547075a751cc15673246.jpg",
     "static/media/wrighter.jpg": "/static/media/wrighter.0a6efd88c7795e04684b.jpg",
+    "static/media/ec.png": "/static/media/ec.cf8be4e9fb69868cff50.png",
     "static/media/fa-regular-400.woff": "/static/media/fa-regular-400.2ccf005a6998d30de3d3.woff",
+    "static/media/NYU-Logo.png": "/static/media/NYU-Logo.0b86fdc1c1342e23134f.png",
+    "static/media/drdo.png": "/static/media/drdo.8b3485a858dda1fa6b51.png",
     "static/media/quicko.jpg": "/static/media/quicko.ab474dcf4aa1473d7218.jpg",
     "static/media/aws.png": "/static/media/aws.ecf81df776e8cbac01bf.png",
     "static/media/cra.png": "/static/media/cra.4c1d7efd4bc9d4d40901.png",
@@ -44,10 +48,10 @@
     "static/media/buld.jpg": "/static/media/buld.55444b9789a64f32e2e5.jpg",
     "index.html": "/index.html",
     "main.fce9490a.css.map": "/static/css/main.fce9490a.css.map",
-    "main.0a74b7cb.js.map": "/static/js/main.0a74b7cb.js.map"
+    "main.2a6d51ff.js.map": "/static/js/main.2a6d51ff.js.map"
   },
   "entrypoints": [
     "static/css/main.fce9490a.css",
-    "static/js/main.0a74b7cb.js"
+    "static/js/main.2a6d51ff.js"
   ]
 }
