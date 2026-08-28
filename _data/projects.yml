@@ -1,16 +1,31 @@
 # Projects
-# uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+- project: "Multi-Tool AI Research Agent"
+  role: "AI & RAG Engineer"
+  duration: "2024 &mdash; Present"
+  description: >
+    Developed a conversational AI agent using LangGraph framework for scientific research assistance, featuring intelligent tool routing between local knowledge base queries, web search, and AI summarization. Engineered a complete RAG pipeline with FAISS vector store for semantic search across scientific papers, enabling contextual multi-turn dialogues. Implemented fine-tuning infrastructure for T5 model specialization on scientific paper summarization, significantly improving content quality over generic models. <br/><strong>Tech:</strong> Python, LangChain, LangGraph, Streamlit, FAISS, Transformers, PyTorch, Hugging Face, Google APIs, Sentence-Transformers.
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+- project: "ML-Driven High-Frequency Market Making System"
+  role: "Quantitative Systems Engineer"
+  duration: "2024"
+  description: >
+    Built algorithmic trading infrastructure with C++17 low-latency engine (10K+ events/sec) and Python ML pipeline. Engineered 100+ market microstructure features (order book imbalance, flow toxicity, multi-scale volatility) and trained ensemble models (LightGBM, XGBoost, Random Forest) achieving 70.7% accuracy, 78.2% AUC, 0.70 Sharpe ratio via walk-forward validation. Implemented adaptive market making strategy with ML-driven quote skewing and dynamic inventory management. Built backtesting framework with transaction cost modeling and comprehensive risk analytics. <br/><strong>Tech:</strong> C++17, Python, LightGBM, XGBoost, scikit-learn, Pandas, NumPy, Boost, Quantitative Finance.
+
+- project: "Meta-Learning for Cybersecurity Defense"
+  role: "ML Researcher"
+  duration: "2024"
+  description: >
+    Built a multi-agent RL system using Graph Attention Networks to defend network infrastructures against adversarial attacks. Trained defender and attacker agents through self-play, then applied Reptile meta-learning for rapid adaptation to novel threats, achieving 50% faster convergence on unseen attack patterns compared to standard approaches. <br/><strong>Tech:</strong> Python, PyTorch, PyTorch Geometric, Stable-Baselines3, Gymnasium, NetworkX, Graph Attention Networks (GAT), Reinforcement Learning, Multi-Agent Systems.
+
+- project: "Retinal Image Segmentation"
+  role: "ML Engineer"
+  duration: "2023 &mdash; 2024"
+  description: >
+    Drove significant advancements in automated retinal image analysis, increasing segmentation accuracy by 25% through machine learning techniques. Engineered advanced algorithms to enhance the detection of retinal structures for early disease detection, utilizing sophisticated image processing methods and ML models for precise segmentation. <br/><strong>Tech:</strong> Python, Logging, Argparse, Dataset API, NumPy, Preprocessor & Trainer.
+
+- project: "Netfilter-based Packet Manipulation Tool Development"
+  role: "Systems Developer"
+  duration: "2023"
+  description: >
+    Enhanced network data manipulation flexibility by 20% with the creation of a real-time packet manipulation tool using C, Linux Netfilter, and libnetfilter_queue. Featured advanced logic for appending data to packets, facilitating precise handling and manipulation of IP headers and checksums while maintaining overall line-rate processing speed. <br/><strong>Tech:</strong> C, Linux Netfilter, libnetfilter_queue.

@@ -1,0 +1,27 @@
+- title: "GuardPaint: Speculative Safety Decoding for Text-to-Image Generation"
+  authors: "S Dhoot, <strong>Paras Dhiman</strong>, AA Naqvi, A Dutta, A Chadha, V Jain, A Das"
+  venue: "ACL ARR 2026 (Revise-and-Resubmit) / arXiv:2608.21869"
+  year: "2026"
+  description: >
+    A speculative-decoding safety framework that intervenes inside the T2I diffusion trajectory, using a multi-task Auditor-Scorer to localize unsafe regions and a policy-aligned inpainter to repair them without modifying base model weights. Evaluated across 5 jailbreak attack families and 5 base architectures (SD 1.5, SDXL, SD 3.5, FLUX.1-dev), reducing attack success rate without exception while keeping prompt fidelity and image quality intact.
+  tags:
+    - "Generative AI"
+    - "Diffusion Models"
+    - "Decoding-Time Safety"
+    - "Adversarial NLP"
+  paper_url: "https://arxiv.org/abs/2608.21869"
+  code_url: ""
+
+- title: "NeuroCrypt: Demystifying Neural Distinguishers with Cipher-Agnostic Cryptanalysis"
+  authors: "<strong>Paras Dhiman</strong>, Ravi Anand, Takanori Isobe"
+  venue: "Preprint / Under Resubmission"
+  year: "2026"
+  description: >
+    First-author work presenting a single fixed cipher-agnostic architecture applied without structural change across five structurally distinct primitives (Speck, Simon, Simeck, Present, ChaCha), quantifying what drives neural-distinguisher performance. Controlled ablation exposed systematic overestimation in few-seed evaluation protocols and established a 10-seed rigorous benchmark.
+  tags:
+    - "Neural Cryptanalysis"
+    - "Applied Cryptography"
+    - "Empirical ML"
+    - "Deep Learning"
+  paper_url: ""
+  code_url: ""

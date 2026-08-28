@@ -1,0 +1,39 @@
+- date: "Aug 2026"
+  icon: "📄"
+  text: "<strong>GuardPaint: Decoding-Time Safety for Generative Diffusion Models</strong> revised at ACL ARR 2026 (arXiv:2608.21869)."
+  link: "#publications"
+
+- date: "2026"
+  icon: "🔬"
+  text: "Completed first-author research on <strong>NeuroCrypt: Demystifying Neural Distinguishers</strong> (with Ravi Anand & Takanori Isobe)."
+  link: "#publications"
+
+- date: "Aug 2025"
+  icon: "🚀"
+  text: "Joined <strong>Miimansa</strong> as Data Scientist building clinical NLP pipelines & OMOP knowledge graphs."
+  link: "#experience"
+
+- date: "Aug 2025"
+  icon: "🧠"
+  text: "Joined the <strong>Artificial Intelligence Institute of South Carolina (AIISC)</strong> as Research Intern."
+  link: "#experience"
+
+- date: "Jul 2025"
+  icon: "💼"
+  text: "Completed Software Development Engineer Internship at <strong>Probo Media Technologies</strong>."
+  link: "#experience"
+
+- date: "May 2025"
+  icon: "🎓"
+  text: "Graduated with B.Tech in Computer Science and Biosciences from <strong>IIIT Delhi</strong> (CGPA: 7.93/10)."
+  link: "#education"
+
+- date: "Jul 2024"
+  icon: "🎖️"
+  text: "Completed Research & Development Internship at <strong>DRDO (ISSA)</strong> on geospatial PSO optimization."
+  link: "#experience"
+
+- date: "Jan 2024"
+  icon: "🏆"
+  text: "Achieved <strong>Specialist (Rating: 1425)</strong> on <strong>Codeforces</strong>."
+  link: "#recognition"

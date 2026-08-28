@@ -1,12 +1,13 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: Core Programming Languages
+  description: C/C++, Python
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Other Languages
+  description: Java, R, TypeScript, JavaScript, HTML/CSS, Perl, Ruby
+
+- skill: Technologies, Frameworks & Tools
+  description: PyTorch, TensorFlow, Hugging Face, Transformers, Diffusers, LangChain, LangGraph, FAISS, Apache Spark, Airflow, RabbitMQ, PostgreSQL, MySQL, Redis, MongoDB, ElasticSearch, OpenSearch, Docker, AWS (S3, EKS), Linux, Bash, QGIS, MATLAB, RStudio, LibGDX, Git, GitHub, VS Code
+
+- skill: Specialized Certifications
+  description: Google Cybersecurity [Professional Certificate], Cybersecurity Attack and Defense Fundamentals [Specialization Certificate], Machine Learning and Reinforcement Learning in Finance [Specialization Certificate]

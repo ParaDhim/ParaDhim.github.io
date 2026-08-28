@@ -1,48 +1,96 @@
-<!-- and guess where these are defined? Yup, you guessed it: the _config.yml file -->
 {% if site.resume_social_links %}
-<ul class="icon-links">
+<div class="social-icon-row">
 
-  <!-- GitHub link -->
+  <!-- 1. GitHub -->
   {% if site.resume_social_links.resume_github_url %}
-  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_github_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-github.html %}</a></li>
+  <a href="{{ site.resume_social_links.resume_github_url }}" target="_blank" rel="noopener noreferrer" class="social-circle-btn" title="GitHub" itemprop="sameAs">
+    {% include "icons/icon-github.html" %}
+  </a>
   {% endif %}
 
-  <!-- Twitter link -->
+  <!-- 2. Bluesky -->
+  {% if site.resume_social_links.resume_bluesky_url %}
+  <a href="{{ site.resume_social_links.resume_bluesky_url }}" target="_blank" rel="noopener noreferrer" class="social-circle-btn" title="Bluesky" itemprop="sameAs">
+    {% include "icons/icon-bluesky.html" %}
+  </a>
+  {% endif %}
+
+  <!-- 3. Twitter / X -->
   {% if site.resume_social_links.resume_twitter_url %}
-  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_twitter_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-twitter.html %}</a></li>
-  {% endif %}
-  
-  <!-- Medium link -->
-  {% if site.resume_social_links.resume_medium_url %}
-  <li class="icon-link-item">
-    <a href="{{ site.resume_social_links.resume_medium_url }}" class="icon-link" itemprop="url">{% include icons/icon-medium.html %}</a>
-  </li>
+  <a href="{{ site.resume_social_links.resume_twitter_url }}" target="_blank" rel="noopener noreferrer" class="social-circle-btn" title="Twitter / X" itemprop="sameAs">
+    {% include "icons/icon-twitter.html" %}
+  </a>
   {% endif %}
 
-  <!-- Dribbble link -->
-  {% if site.resume_social_links.resume_dribbble_url %}
-  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_dribbble_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-dribbble.html %}</a></li>
-  {% endif %}
-
-  <!-- Facebook link -->
-  {% if site.resume_social_links.resume_facebook_url %}
-  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_facebook_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-facebook.html %}</a></li>
-  {% endif %}
-
-  <!-- LinkedIn link -->
+  <!-- 4. LinkedIn -->
   {% if site.resume_social_links.resume_linkedin_url %}
-  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_linkedin_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-linkedin.html %}</a></li>
+  <a href="{{ site.resume_social_links.resume_linkedin_url }}" target="_blank" rel="noopener noreferrer" class="social-circle-btn" title="LinkedIn" itemprop="sameAs">
+    {% include "icons/icon-linkedin.html" %}
+  </a>
   {% endif %}
 
-  <!-- Instagram link -->
+  <!-- 5. YouTube -->
+  {% if site.resume_social_links.resume_youtube_url %}
+  <a href="{{ site.resume_social_links.resume_youtube_url }}" target="_blank" rel="noopener noreferrer" class="social-circle-btn" title="YouTube" itemprop="sameAs">
+    {% include "icons/icon-youtube.html" %}
+  </a>
+  {% endif %}
+
+  <!-- 6. Google Scholar -->
+  {% if site.resume_social_links.resume_scholar_url %}
+  <a href="{{ site.resume_social_links.resume_scholar_url }}" target="_blank" rel="noopener noreferrer" class="social-circle-btn" title="Google Scholar" itemprop="sameAs">
+    {% include "icons/icon-scholar.html" %}
+  </a>
+  {% endif %}
+
+  <!-- 7. Semantic Scholar -->
+  {% if site.resume_social_links.resume_semanticscholar_url %}
+  <a href="{{ site.resume_social_links.resume_semanticscholar_url }}" target="_blank" rel="noopener noreferrer" class="social-circle-btn" title="Semantic Scholar" itemprop="sameAs">
+    {% include "icons/icon-semanticscholar.html" %}
+  </a>
+  {% endif %}
+
+  <!-- 8. OpenReview -->
+  {% if site.resume_social_links.resume_openreview_url %}
+  <a href="{{ site.resume_social_links.resume_openreview_url }}" target="_blank" rel="noopener noreferrer" class="social-circle-btn" title="OpenReview" itemprop="sameAs">
+    {% include "icons/icon-openreview.html" %}
+  </a>
+  {% endif %}
+
+  <!-- 9. Substack / Newsletter -->
+  {% if site.resume_social_links.resume_substack_url %}
+  <a href="{{ site.resume_social_links.resume_substack_url }}" target="_blank" rel="noopener noreferrer" class="social-circle-btn" title="Substack" itemprop="url">
+    {% include "icons/icon-substack.html" %}
+  </a>
+  {% endif %}
+
+  <!-- 10. Hugging Face -->
+  {% if site.resume_social_links.resume_huggingface_url %}
+  <a href="{{ site.resume_social_links.resume_huggingface_url }}" target="_blank" rel="noopener noreferrer" class="social-circle-btn" title="Hugging Face" itemprop="sameAs">
+    {% include "icons/icon-huggingface.html" %}
+  </a>
+  {% endif %}
+
+  <!-- 11. Medium -->
+  {% if site.resume_social_links.resume_medium_url %}
+  <a href="{{ site.resume_social_links.resume_medium_url }}" target="_blank" rel="noopener noreferrer" class="social-circle-btn" title="Medium" itemprop="url">
+    {% include "icons/icon-medium.html" %}
+  </a>
+  {% endif %}
+
+  <!-- 12. Instagram -->
   {% if site.resume_social_links.resume_instagram_url %}
-  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_instagram_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-instagram.html %}</a></li>
+  <a href="{{ site.resume_social_links.resume_instagram_url }}" target="_blank" rel="noopener noreferrer" class="social-circle-btn" title="Instagram" itemprop="sameAs">
+    {% include "icons/icon-instagram.html" %}
+  </a>
   {% endif %}
 
-  <!-- Website link -->
-  {% if site.resume_social_links.resume_website_url %}
-  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_website_url }}" class="icon-link" itemprop="url">{% include icons/icon-website.html %}</a></li>
+  <!-- 13. Email -->
+  {% if site.resume_contact_email %}
+  <a href="mailto:{{ site.resume_contact_email }}" class="social-circle-btn" title="Email" itemprop="email">
+    {% include "icons/icon-email.html" %}
+  </a>
   {% endif %}
 
-</ul>
+</div>
 {% endif %}

@@ -1,19 +1,37 @@
-# Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+# Jobs & Research Experience
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+- company: "Miimansa, India"
+  position: "Data Scientist"
+  duration: "Aug 2025 &mdash; Present"
+  summary: >
+    Built core stages of a 9-service, RabbitMQ-orchestrated clinical NLP pipeline converting raw hospital discharge summaries into OMOP CDM-formatted records and a longitudinal patient knowledge graph. <ul class="resume-item-list"><li>Designed an LLM-ensemble extractor for 7 clinical entity types and a vector + lexical OMOP concept-standardization layer with confidence-floor arbitration on live patient data.</li><li>Built the Graph Builder Agent and an LLM-based de-identification engine for automated PHI removal, ensuring HIPAA/GDPR-compliant handling of structured and unstructured clinical text.</li><li><strong>Tech stack:</strong> Python, PyTorch, Transformers, RabbitMQ, PostgreSQL, Redis, Clinical NLP, OMOP CDM, HIPAA-compliant data handling.</li></ul>
 
+- company: "Artificial Intelligence Institute of South Carolina, USA"
+  position: "Research Intern"
+  duration: "Aug 2025 &mdash; Present"
+  summary: >
+    Co-authored GuardPaint (ACL ARR 2026, revise-and-resubmit), a speculative-decoding safety framework that intervenes inside the T2I diffusion trajectory. <ul class="resume-item-list"><li>Utilized a multi-task Auditor-Scorer to localize unsafe regions and a policy-aligned inpainter to repair them without modifying base model weights.</li><li>Evaluated across 5 jailbreak attack families and 5 base architectures (SD 1.5, SDXL, SD 3.5, FLUX.1-dev), reducing attack success rate without exception while keeping prompt fidelity and image quality within noise of the baseline.</li><li><strong>Tech stack:</strong> PyTorch, Hugging Face Diffusers, CLIP, Stable Diffusion, Adversarial NLP, Contrastive Learning.</li></ul>
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+- company: "Cryptography Lab, IIIT Delhi (IN)"
+  position: "Undergraduate Researcher"
+  duration: "Jan 2024 &mdash; Present"
+  summary: >
+    First-author work on NeuroCrypt (with Ravi Anand and Takanori Isobe): a single fixed cipher-agnostic architecture applied across five structurally distinct primitives (Speck, Simon, Simeck, Present, ChaCha). <ul class="resume-item-list"><li>Controlled ablation showed squeeze-and-excitation, statistical-feature branches, curriculum learning, and Focal Loss are individually inert.</li><li>A 10-seed protocol collapsed two previously-reported deep-round results to chance, exposing systematic overestimation in few-seed evaluation; quantified a 1.64pp portability tax versus cipher-specific networks.</li><li><strong>Tech stack:</strong> Python, PyTorch, TensorFlow, Scikit-learn, AES, DES, Simon, Simeck, Speck, Statistical rigor / ablation methodology.</li></ul>
+
+- company: "Probo Media Technologies Pvt Ltd, India"
+  position: "Software Development Engineer Intern"
+  duration: "Mar 2025 &mdash; Jul 2025"
+  summary: >
+    Crafted end-to-end solutions leveraging LLMs to streamline report generation for OpenSearch indexes and automated data workflows. <ul class="resume-item-list"><li>Developed and scheduled multiple Apache Airflow DAGs to automate data fetching and integrated AI tools (MistralAI, ChatGPT APIs) to streamline data collection by 100%.</li><li>Significantly reduced manual intervention while boosting data acquisition accuracy and speed.</li><li>Developed backend APIs supporting internal tools and data-driven services.</li><li><strong>Tech stack:</strong> Airflow, MySQL, TypeScript, JavaScript, Python, OpenSearch, AWS (S3, EKS), Playwright (browser-use, crawl4ai), GenAI.</li></ul>
+
+- company: "DRDO (Defence Research and Development Organisation), ISSA, India"
+  position: "Research And Development Intern"
+  duration: "May 2024 &mdash; Jul 2024"
+  summary: >
+    Designed a Particle Swarm Optimization (PSO) algorithm to optimize center locations within specified elevation constraints, enhancing weapon system placement efficiency. <ul class="resume-item-list"><li>Increased optimization accuracy by 25% and reduced computation time for site selection by 15%.</li><li>Integrated the PSO algorithm with elevation constraints using Rasterio for geospatial terrain analysis and Matplotlib for decision-making visualizations.</li><li><strong>Tech stack:</strong> Rasterio, Matplotlib, QGIS, FFmpeg.</li></ul>
+
+- company: "Network Security Lab, IIIT Delhi (IN)"
+  position: "Undergraduate Researcher"
+  duration: "Oct 2022 &mdash; Aug 2025"
+  summary: >
+    Engineered covert data transmission over gaming networks via packet interception/modification, achieving a 95% success rate and improving transmission efficiency by 30%. <ul class="resume-item-list"><li>Boosted packet modification throughput by 40% and reduced audio encoding/decoding delay by 20ms through network and audio processing optimization.</li><li><strong>Tech stack:</strong> iptables, Netfilter Queue, Audio Transcoders, Wireshark.</li></ul>

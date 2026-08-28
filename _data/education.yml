@@ -1,13 +1,17 @@
-# Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+# Degrees & Education
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- uni: IIIT Delhi (Indraprastha Institute of Information Technology Delhi)
+  degree: "B.Tech in Computer Science and Biosciences (CGPA: 7.93/10)"
+  year: Aug 2021 &mdash; May 2025
+  awards:
+    - award: "Relevant Coursework: Machine Learning, Data Mining, Advanced Data Structures & Algorithms, Network Security, Big Data Analytics, Applied Cryptography, Operating Systems, Computer Networks, Databases, Discrete Mathematics"
+  summary: "Focused on machine learning, security, and biosciences."
+
+- uni: Arwachin Bharti Bhawan Sr. Sec. School (Vivek Vihar)
+  degree: "Class XII (Senior Secondary)"
+  year: 2021
+  award: "Percentage: 92%"
+  awards:
+    - award: "Secured 3rd Rank & Meritorious Academic Performance Award"
+    - award: "Gold medalist & 1st rank holder in GK Quiz Competition"
+  summary: "Higher secondary education in Science stream."
