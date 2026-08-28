@@ -1,66 +1,71 @@
-# Resume template
+# Paras Dhiman — Academic Homepage & Portfolio
 
-*A simple Jekyll + GitHub Pages powered resume template.*
+[![GitHub Pages](https://img.shields.io/badge/Live_Site-paradhim.github.io-2563eb?style=flat-square&logo=github)](https://paradhim.github.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-gray.svg?style=flat-square)](LICENSE)
 
-![img](images/screenshot.png)
+Personal academic website and research portfolio for **Paras Dhiman** (Data Scientist @ Miimansa, Research Intern @ AIISC, B.Tech in CS & Biosciences from IIIT Delhi).
 
-## Docs
+🌐 **Live Website**: [https://paradhim.github.io](https://paradhim.github.io)
 
-### Running locally
+---
 
-To test locally, run the following in your terminal:
+## 🔬 Research Interests & Focus
+- **Machine Learning & Safety**: Speculative decoding-time safety for text-to-image generative diffusion models (*GuardPaint*).
+- **Neural Cryptanalysis**: Cipher-agnostic deep learning architectures, statistical rigor, and ablation benchmarks (*NeuroCrypt*).
+- **Clinical NLP & Systems Engineering**: Longitudinal patient knowledge graphs, OMOP CDM pipelines, and HIPAA-compliant de-identification.
 
-1. Clone repo locally
-1. `bundle install`
-2. `bundle exec jekyll serve`
-3. Open your browser to `localhost:4000`
+---
 
-### Running locally with Docker
+## 🛠️ Repository Architecture
 
-To test locally with docker, run the following in your terminal after installing docker into your system:
+```text
+├── _config.yml               # Global website metadata, contact details & social handles
+├── _data/                    # Structured content data
+│   ├── news.yml              # Chronological news items and updates
+│   ├── publications.yml      # Papers, preprints, venues & abstracts
+│   ├── experience.yml        # Research labs & industry work experience
+│   ├── projects.yml          # Engineering & ML projects
+│   ├── skills.yml            # Technical skill sets & frameworks
+│   ├── education.yml         # Degrees, coursework & academic honors
+│   ├── recognitions.yml      # Competitive programming & awards
+│   ├── associations.yml      # Community involvement
+│   └── links.yml             # External profile links
+├── _includes/                # Modular HTML components & SVG icons
+│   ├── head.html             # Typography, metadata & styles
+│   ├── icon-links.html       # Outlined circular social profile buttons
+│   └── icons/                # SVG vector glyphs (GitHub, Scholar, Bluesky, etc.)
+├── _layouts/
+│   └── resume.html           # Main single-page academic portfolio layout
+├── _sass/
+│   └── _resume.scss          # Modern academic typography & responsive grid styles
+├── images/
+│   └── avatar.jpg            # Display photo
+└── index.html                # GitHub Pages entrypoint
+```
 
-1. `docker image build -t resume-template .`
-2. `docker run --rm --name resume-template -v "$PWD":/home/app --network host resume-template`
+---
 
-### Customizing
+## 💻 Local Development & Preview
 
-First you'll want to fork the repo to your own account. Then clone it locally and customize, or use the GitHub web editor to customize.
+### Instant Preview (Zero Setup):
+```bash
+python3 build_preview.py
+```
+Open [`preview.html`](preview.html) in your browser, or serve locally:
+```bash
+python3 -m http.server 4000
+```
+Then navigate to `http://localhost:4000/preview.html`.
 
-#### Options/configuration
+---
 
-Most of the basic customization will take place in the `/_config.yml` file. Here is a list of customizations available via `/_config.yml`:
-
-[...write these out...]
-
-#### Editing content
-
-Most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the markup there accordingly
-
-### Publishing to GitHub Pages for free
-
-[GitHub Pages](https://pages.github.com/) will host this for free with your GitHub account. Just make sure you're using a `gh-pages` branch, and the site will automatically be available at `yourusername.github.io/resume-template` (you can rename the repo to resume for your own use if you want it to be available at `yourusername.github.io/resume`). You can also add a CNAME if you want it to be available at a custom domain...
-
-### Configuring with your own domain name
-
-To setup your GH Pages site with a custom domain, [follow the instructions](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) on the GitHub Help site for that topic.
-
-### Themes
-
-Right now resume-template only has one theme. More are coming :soon: though. :heart:
-
-## Roadmap
-
-A feature roadmap is [available here](https://github.com/jglovier/resume-template/projects/1). If you features suggestions, please [open a new issue](https://github.com/jglovier/resume-template/issues/new).
-
-## Contributing
-
-If you spot a bug, or want to improve the code, or even make the dummy content better, you can do the following:
-
-1. [Open an issue](https://github.com/jglovier/resume-template/issues/new) describing the bug or feature idea
-2. Fork the project, make changes, and submit a pull request
-
-## License
-
-The code and styles are licensed under the MIT license. [See project license.](LICENSE) Obviously you should not use the content of this demo repo in your own resume. :wink:
-
-Disclaimer: Use of Lisa M. Simpson image and name used under [Fair Use](https://en.wikipedia.org/wiki/Fair_use) for educational purposes. Project license does not apply to use of this material.
+## 📬 Contact & Profiles
+- **Email**: [parasdhiman3002@gmail.com](mailto:parasdhiman3002@gmail.com)
+- **Google Scholar**: [Paras Dhiman](https://scholar.google.com/citations?user=K8DxrqEAAAAJ&hl=en)
+- **Semantic Scholar**: [Paras Dhiman](https://www.semanticscholar.org/author/Paras-Dhiman/2459158931)
+- **GitHub**: [@ParaDhim](https://github.com/ParaDhim)
+- **LinkedIn**: [parasdhiman1](https://www.linkedin.com/in/parasdhiman1)
+- **X (Twitter)**: [@ParasDhiman03](https://x.com/ParasDhiman03)
+- **Bluesky**: [@eigenvoid.bsky.social](https://bsky.app/profile/eigenvoid.bsky.social)
+- **Substack**: [@parasdhiman1](https://substack.com/@parasdhiman1)
+- **Hugging Face**: [kricko](https://huggingface.co/kricko)
