@@ -25,7 +25,7 @@ display_header_contact_info:    "false"
 
 resume_status_tag:              "OPEN TO ML RESEARCH ROLES & COLLABORATIONS"
 
-resume_header_intro: "<p>ML researcher and engineer working at the intersection of machine learning, applied mathematics, and security. First-author work on neural cryptanalysis exposing systematic overestimation in the field’s evaluation practices; contributing work on decoding-time safety for generative diffusion models (ACL ARR 2026). Building toward independent research in quantum computer security. Comfortable across rigorous empirical ML research and production-grade systems engineering.</p>"
+resume_header_intro: "<p>ML researcher and engineer working at the intersection of machine learning, applied mathematics, and security. First-author work on neural cryptanalysis exposing systematic overestimation in the field’s evaluation practices; contributing work on decoding-time safety for generative diffusion models (ACL ARR 2026). Comfortable across rigorous empirical ML research and production-grade systems engineering.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
