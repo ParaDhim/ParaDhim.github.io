@@ -316,12 +316,7 @@ a:hover {
 }
 
 /* Cards & Resume Items */
-.experience-list,
-.publications-list,
-.projects-list,
-.education-list,
-.recognitions-list,
-.associations-list {
+.experience-list, n.publications-list, n.projects-list, n.education-list, n.recognitions-list, n.associations-list {
   display: flex;
   flex-direction: column;
   gap: 1.75rem;
@@ -507,14 +502,32 @@ a:hover {
 /* Site Footer */
 .site-footer {
   border-top: 1px solid #e5e7eb;
-  padding-top: 2rem;
-  margin-top: 4rem;
+  padding: 3rem 0 3.5rem 0;
+  margin-top: 4.5rem;
   text-align: center;
 }
-.site-footer .footer-text {
-  font-size: 0.82rem;
-  color: #9ca3af;
-  margin: 0;
+.site-footer p {
+  margin: 0 0 0.35rem 0;
+  line-height: 1.5;
+}
+.site-footer .footer-author {
+  font-size: 1.05rem;
+  color: #6b7280;
+  font-weight: 400;
+}
+.site-footer .footer-credits {
+  font-size: 1.05rem;
+  color: #6b7280;
+  font-weight: 400;
+}
+.site-footer .footer-credits a {
+  color: #1f2937;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.site-footer .footer-credits a:hover {
+  color: #2563eb;
 }
 
 /*# sourceMappingURL=main.css.map */
