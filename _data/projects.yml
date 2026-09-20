@@ -1,19 +1,43 @@
 # Projects
 
+- project: "TicketPilot"
+  role: "Lead Developer"
+  url: "https://github.com/ParaDhim/TicketPilot"
+  duration: "2024 &mdash; Present"
+  description: >
+    Built an autonomous, local-first support-ticket triage agent entirely in Go. Deployed a privacy-preserving LLM (Ollama / Llama3 8B) to automatically identify high-risk tickets, close spam, and draft responses. Integrated a Model Context Protocol (MCP) server to establish secure tool-calling capabilities decoupled from standard APIs. Improved escalation recall from 14% to 85% by empirically tuning inference thresholds without regressions. <br/><strong>Tech:</strong> Go (1.22+), GraphQL (gqlgen), Postgres, Model Context Protocol (MCP), Ollama, Docker.
+
+- project: "BeamVision (Blueprint Takeoff Extractor)"
+  role: "Computer Vision Engineer"
+  url: "https://github.com/ParaDhim/BeamVision"
+  duration: "2024"
+  description: >
+    Developed an automated computer vision pipeline extracting structured construction takeoff data (rooms, doors, hardware) directly from architectural blueprints. Fine-tuned YOLOv8n object detection atop OpenCV probabilistic Hough line transforms and a synthetic data generator. Benchmarked dynamic model quantization (ONNX FP32 vs INT8) to navigate Apple Silicon architecture constraints, achieving ~133ms inference latencies. <br/><strong>Tech:</strong> Python, PyTorch, YOLOv8, OpenCV, ONNX, Apple CoreML / MPS, Computer Vision.
+
+- project: "DemandForecastLab"
+  role: "ML Engineer"
+  url: "https://github.com/ParaDhim/demand-forecast-lab"
+  duration: "2024"
+  description: >
+    Engineered a statistical and ML-based demand forecasting pipeline benchmarking naive models, Prophet, ARIMA, and LightGBM over retail sales metrics. Formulated a global LightGBM model utilizing cross-sectional features (price, rolling stats, lags) to overcome the compute scaling limitations of per-series architectures, resulting in a 45.8% WMAPE upgrade relative to naive benchmarks. Conducted intensive root-cause analysis tracing errors to intermittency, stockouts, and unpredictable promotions. <br/><strong>Tech:</strong> Python, LightGBM, Prophet, ARIMA, Pandas, Jupyter, Time Series Forecasting.
+
 - project: "Multi-Tool AI Research Agent"
   role: "AI & RAG Engineer"
-  duration: "2024 &mdash; Present"
+  url: "https://github.com/ParaDhim/my-research-agent"
+  duration: "2024"
   description: >
     Developed a conversational AI agent using LangGraph framework for scientific research assistance, featuring intelligent tool routing between local knowledge base queries, web search, and AI summarization. Engineered a complete RAG pipeline with FAISS vector store for semantic search across scientific papers, enabling contextual multi-turn dialogues. Implemented fine-tuning infrastructure for T5 model specialization on scientific paper summarization, significantly improving content quality over generic models. <br/><strong>Tech:</strong> Python, LangChain, LangGraph, Streamlit, FAISS, Transformers, PyTorch, Hugging Face, Google APIs, Sentence-Transformers.
 
 - project: "ML-Driven High-Frequency Market Making System"
   role: "Quantitative Systems Engineer"
+  url: "https://github.com/ParaDhim/market-making-bot"
   duration: "2024"
   description: >
     Built algorithmic trading infrastructure with C++17 low-latency engine (10K+ events/sec) and Python ML pipeline. Engineered 100+ market microstructure features (order book imbalance, flow toxicity, multi-scale volatility) and trained ensemble models (LightGBM, XGBoost, Random Forest) achieving 70.7% accuracy, 78.2% AUC, 0.70 Sharpe ratio via walk-forward validation. Implemented adaptive market making strategy with ML-driven quote skewing and dynamic inventory management. Built backtesting framework with transaction cost modeling and comprehensive risk analytics. <br/><strong>Tech:</strong> C++17, Python, LightGBM, XGBoost, scikit-learn, Pandas, NumPy, Boost, Quantitative Finance.
 
 - project: "Meta-Learning for Cybersecurity Defense"
   role: "ML Researcher"
+  url: "https://github.com/ParaDhim/meta-learning-attacker-defense"
   duration: "2024"
   description: >
     Built a multi-agent RL system using Graph Attention Networks to defend network infrastructures against adversarial attacks. Trained defender and attacker agents through self-play, then applied Reptile meta-learning for rapid adaptation to novel threats, achieving 50% faster convergence on unseen attack patterns compared to standard approaches. <br/><strong>Tech:</strong> Python, PyTorch, PyTorch Geometric, Stable-Baselines3, Gymnasium, NetworkX, Graph Attention Networks (GAT), Reinforcement Learning, Multi-Agent Systems.
