@@ -3,21 +3,21 @@
 - project: "TicketPilot"
   role: "Lead Developer"
   url: "https://github.com/ParaDhim/TicketPilot"
-  duration: "2024 &mdash; Present"
+  duration: "2026"
   description: >
     Built an autonomous, local-first support-ticket triage agent entirely in Go. Deployed a privacy-preserving LLM (Ollama / Llama3 8B) to automatically identify high-risk tickets, close spam, and draft responses. Integrated a Model Context Protocol (MCP) server to establish secure tool-calling capabilities decoupled from standard APIs. Improved escalation recall from 14% to 85% by empirically tuning inference thresholds without regressions. <br/><strong>Tech:</strong> Go (1.22+), GraphQL (gqlgen), Postgres, Model Context Protocol (MCP), Ollama, Docker.
 
 - project: "BeamVision (Blueprint Takeoff Extractor)"
   role: "Computer Vision Engineer"
   url: "https://github.com/ParaDhim/BeamVision"
-  duration: "2024"
+  duration: "2026"
   description: >
     Developed an automated computer vision pipeline extracting structured construction takeoff data (rooms, doors, hardware) directly from architectural blueprints. Fine-tuned YOLOv8n object detection atop OpenCV probabilistic Hough line transforms and a synthetic data generator. Benchmarked dynamic model quantization (ONNX FP32 vs INT8) to navigate Apple Silicon architecture constraints, achieving ~133ms inference latencies. <br/><strong>Tech:</strong> Python, PyTorch, YOLOv8, OpenCV, ONNX, Apple CoreML / MPS, Computer Vision.
 
 - project: "DemandForecastLab"
   role: "ML Engineer"
   url: "https://github.com/ParaDhim/demand-forecast-lab"
-  duration: "2024"
+  duration: "2026"
   description: >
     Engineered a statistical and ML-based demand forecasting pipeline benchmarking naive models, Prophet, ARIMA, and LightGBM over retail sales metrics. Formulated a global LightGBM model utilizing cross-sectional features (price, rolling stats, lags) to overcome the compute scaling limitations of per-series architectures, resulting in a 45.8% WMAPE upgrade relative to naive benchmarks. Conducted intensive root-cause analysis tracing errors to intermittency, stockouts, and unpredictable promotions. <br/><strong>Tech:</strong> Python, LightGBM, Prophet, ARIMA, Pandas, Jupyter, Time Series Forecasting.
 
