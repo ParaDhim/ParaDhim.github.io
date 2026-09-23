@@ -1,5 +1,12 @@
 # Projects
 
+- project: "Credit Default Risk Model"
+  role: "ML Engineer"
+  url: "https://github.com/ParaDhim/CreditRisk-ML"
+  duration: "2026"
+  description: >
+    Engineered an end-to-end credit default risk classifier to predict loan defaults across 300,000+ applicants. Aggregated multi-table time-series data (bureau records, installments) to create 139 domain-specific behavioral features. Addressed an 8% severe class imbalance by pitting SMOTE oversampling against algorithmically weighted loss schemas, achieving a robust 0.77 ROC-AUC out-of-fold with LightGBM. Translated raw model probabilities into a business-facing decision matrix, optimizing revenue and expected approval volumes against default capture rates. <br/><strong>Tech:</strong> Python, LightGBM, Pandas, scikit-learn, SMOTE, SHAP.
+
 - project: "TicketPilot"
   role: "Lead Developer"
   url: "https://github.com/ParaDhim/TicketPilot"
