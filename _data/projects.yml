@@ -31,9 +31,9 @@
 - project: "Multi-Tool AI Research Agent"
   role: "AI & RAG Engineer"
   url: "https://github.com/ParaDhim/my-research-agent"
-  duration: "2024"
+  duration: "2026"
   description: >
-    Developed a conversational AI agent using LangGraph framework for scientific research assistance, featuring intelligent tool routing between local knowledge base queries, web search, and AI summarization. Engineered a complete RAG pipeline with FAISS vector store for semantic search across scientific papers, enabling contextual multi-turn dialogues. Implemented fine-tuning infrastructure for T5 model specialization on scientific paper summarization, significantly improving content quality over generic models. <br/><strong>Tech:</strong> Python, LangChain, LangGraph, Streamlit, FAISS, Transformers, PyTorch, Hugging Face, Google APIs, Sentence-Transformers.
+    Built a conversational scientific AI agent architecture orchestrating cyclic Tool/LLM interactions via LangGraph state machines. Engineered a dynamic routing system bridging local FAISS vector search across scientific corpora, Google Custom Search API retrieval, and custom domain-adapted summarization. Integrated an automated fine-tuning pipeline optimizing memory-efficient T5 adaptation to research abstracts using Hugging Face datasets. Wrapped the agent with a FastAPI backend server for programmatic REST integration and a Streamlit chat UI with local memory persistence. <br/><strong>Tech:</strong> Python, LangChain, LangGraph, FastAPI, Streamlit, FAISS, PyTorch, Hugging Face (Transformers/Datasets).
 
 - project: "ML-Driven High-Frequency Market Making System"
   role: "Quantitative Systems Engineer"
