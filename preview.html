@@ -459,6 +459,22 @@
           <article class="project-card" itemscope itemtype="http://schema.org/CreativeWork">
             <div class="card-top">
               <h3 class="project-title" itemprop="name">
+                <a href="https://github.com/ParaDhim/neu-det-defect-inspection-service" target="_blank" rel="noopener">Industrial Steel Surface Defect Inspection Service</a>
+              </h3>
+              <span class="project-duration">2026</span>
+            </div>
+            
+            <h4 class="project-role">ML Systems Engineer</h4>
+            
+            <div class="project-copy">
+              Designed and deployed an end-to-end metallurgical defect-detection platform on the NEU-DET dataset (1,800 steel strip images, 6 defect classes). Ran an 11-run MLflow DOE selecting YOLOv8n 224px FP32 via validation mAP50, achieving 74.2% clean / 26.8% shifted test mAP50 at ~5.4 ms p95 on CPU (~190 FPS, 12 MB ONNX). Implemented per-class confidence overrides (crazing threshold 0.112 tuned on validation) boosting crazing recall from 11% to 43%. Benchmarked dynamic INT8 and static QDQ quantization (both slower than FP32 on this CPU, ruling them out). Built KS-test covariate drift monitoring with automated retraining trigger and a PatchCore unsupervised anomaly baseline (99.7% prototype AUROC). Wrapped the system in a FastAPI microservice with Prometheus metrics, Kubernetes manifests (HPA 2→8 replicas), and a deterministic metallurgical rule engine fallback running at 0.004 ms for air-gapped deployments. <br/><strong>Tech:</strong> Python, YOLOv8, ONNX Runtime, FastAPI, MLflow, PyTorch, Kubernetes, Docker, Prometheus.
+
+            </div>
+          </article>
+          
+          <article class="project-card" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="card-top">
+              <h3 class="project-title" itemprop="name">
                 <a href="https://github.com/ParaDhim/CreditRisk-ML" target="_blank" rel="noopener">Credit Default Risk Model</a>
               </h3>
               <span class="project-duration">2026</span>

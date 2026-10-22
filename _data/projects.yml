@@ -1,5 +1,12 @@
 # Projects
 
+- project: "Industrial Steel Surface Defect Inspection Service"
+  role: "ML Systems Engineer"
+  url: "https://github.com/ParaDhim/neu-det-defect-inspection-service"
+  duration: "2026"
+  description: >
+    Designed and deployed an end-to-end metallurgical defect-detection platform on the NEU-DET dataset (1,800 steel strip images, 6 defect classes). Ran an 11-run MLflow DOE selecting YOLOv8n 224px FP32 via validation mAP50, achieving 74.2% clean / 26.8% shifted test mAP50 at ~5.4 ms p95 on CPU (~190 FPS, 12 MB ONNX). Implemented per-class confidence overrides (crazing threshold 0.112 tuned on validation) boosting crazing recall from 11% to 43%. Benchmarked dynamic INT8 and static QDQ quantization (both slower than FP32 on this CPU, ruling them out). Built KS-test covariate drift monitoring with automated retraining trigger and a PatchCore unsupervised anomaly baseline (99.7% prototype AUROC). Wrapped the system in a FastAPI microservice with Prometheus metrics, Kubernetes manifests (HPA 2→8 replicas), and a deterministic metallurgical rule engine fallback running at 0.004 ms for air-gapped deployments. <br/><strong>Tech:</strong> Python, YOLOv8, ONNX Runtime, FastAPI, MLflow, PyTorch, Kubernetes, Docker, Prometheus.
+
 - project: "Credit Default Risk Model"
   role: "ML Engineer"
   url: "https://github.com/ParaDhim/CreditRisk-ML"
