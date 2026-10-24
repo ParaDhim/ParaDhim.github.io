@@ -1,5 +1,12 @@
 # Projects
 
+- project: "MCP-SWE-Gym (Agent Evaluation Benchmark)"
+  role: "AI Systems & Evaluation Engineer"
+  url: "https://github.com/ParaDhim/mcp-swe-gym"
+  duration: "2026"
+  description: >
+    Engineered an evaluation harness and benchmark environment assessing whether LLM agents can discover task requirements via Model Context Protocol (MCP) tools and implement verified code solutions. Built 4 deterministic task families (bugfix, feature, refactor, and latency-budgeted performance optimization) pairing Python codebases with a FastMCP server holding decisive domain context (issues, design docs, configs). Implemented a sandboxed verification pipeline (patch extraction, git apply, hidden test suites) verified with strict property gates: oracle agent (4/4 pass), null agent (0/4 pass), and 5 mutation testing suites. Benchmarked frontier and open-weight models (Groq gpt-oss-120b, Claude, Ollama) tracking multi-turn tool traces, recovering a 100% sweep pass rate across all tasks. <br/><strong>Tech:</strong> Python, Model Context Protocol (MCP), FastMCP, Pytest, Astral uv, Mypy (Strict), Ruff, Docker, LLM Benchmarking.
+
 - project: "Industrial Steel Surface Defect Inspection Service"
   role: "ML Systems Engineer"
   url: "https://github.com/ParaDhim/neu-det-defect-inspection-service"
