@@ -459,6 +459,22 @@
           <article class="project-card" itemscope itemtype="http://schema.org/CreativeWork">
             <div class="card-top">
               <h3 class="project-title" itemprop="name">
+                <a href="https://github.com/ParaDhim/fieldasr" target="_blank" rel="noopener">FieldASR (Robust Speech Recognition)</a>
+              </h3>
+              <span class="project-duration">2026</span>
+            </div>
+            
+            <h4 class="project-role">Speech & ML Engineer</h4>
+            
+            <div class="project-copy">
+              Engineered a robust Swahili speech recognition system under simulated field conditions (phone codecs, low SNR babble/pink noise, reverberant mics) on the FLEURS corpus. Benchmarked zero-shot Whisper-small (84.7% clean WER), wav2vec2 XLS-R CTC, full fine-tuning, and LoRA across 3 seeds, demonstrating LoRA achieves superior clean performance (21.4% ± 0.3% WER) and reduces telephone codec WER (e.g., mp3 8k from 91.5% to 27.6%). Conducted systematic error analyses contrasting Whisper's insertion/hallucination failure modes at low SNRs against CTC deletion modes. Optimized production edge serving via CTranslate2 / faster-whisper INT8 quantization on CPU, reducing model footprint from 928 MB to 242 MB and achieving ~1.3–1.8x speedup (RTF 0.08, ~12x faster than real-time) with zero accuracy degradation. Deployed as an offline CLI and containerized FastAPI service with automated PII scrubbing. <br/><strong>Tech:</strong> Python, PyTorch, Whisper, LoRA / PEFT, CTranslate2, faster-whisper, Hugging Face, FastAPI, Docker, MLflow, Astral uv.
+
+            </div>
+          </article>
+          
+          <article class="project-card" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="card-top">
+              <h3 class="project-title" itemprop="name">
                 <a href="https://github.com/ParaDhim/mcp-swe-gym" target="_blank" rel="noopener">MCP-SWE-Gym (Agent Evaluation Benchmark)</a>
               </h3>
               <span class="project-duration">2026</span>
